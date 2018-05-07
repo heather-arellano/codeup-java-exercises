@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ConsoleExercises {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         System.out.println("This is what you entered");
         System.out.println(a);
@@ -19,7 +19,7 @@ public class ConsoleExercises {
         System.out.println(string1 + " "+ string2 + " " + string3);
 
 
-        System.out.println("Enter  a sentence: ")
+        System.out.println("Enter  a sentence: ");
         String sentence = scan.next();
         System.out.println(sentence);
 

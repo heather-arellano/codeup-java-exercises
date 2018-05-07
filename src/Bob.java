@@ -10,11 +10,12 @@ public class Bob {
             String answer3 = "Fine. Be that way!";
             String answer4 = "Whatever";
             System.out.print(" What are you trying to say Bob?");
-        if (userTellsBob.endsWith("?")){
+            String userSays = scan.nextLine();
+        if (userSays.endsWith("?")){
             System.out.println(answer1);
-        } else if (userTellsBob.endsWith("!")) {
+        } else if (userSays.endsWith("!")) {
             System.out.println(answer2);
-        } else if (userTellsBob.trim().equals("")) {
+        } else if (userSays.trim().equals("")) {
             System.out.println(answer3);
         } else {
             System.out.println(answer4);

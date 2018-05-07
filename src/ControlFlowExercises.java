@@ -71,43 +71,43 @@ public class ControlFlowExercises {
                 break;
             }
         }
-// BONUS
-        while (true) {
-            System.out.println("What is your numerical grade?");
-            int usersGrade = userInput.nextInt();
-            String usersLetterGrade;
-            if(usersGrade < 60){
-                usersLetterGrade = "F";
-            }else if(usersGrade < 67) {
-                usersLetterGrade = "D";
-            }else if(usersGrade < 80) {
-                usersLetterGrade = "C";
-            }else if(usersGrade < 88) {
-                usersLetterGrade = "B";
-            }else if(usersGrade<=100) {
-                usersLetterGrade = "A";
-            }else{
-                usersLetterGrade = "Error";
-            }
-            System.out.println("Your grade in that class was: " + usersLetterGrade);
-            userInput.nextLine();
-            System.out.println("Would you like to enter another grade? (y/n)");
-            String yesOrNo = userInput.nextLine();
-            if (yesOrNo.equals("n")) {
-                break;
-            }
-        }
-        System.out.println("Give a character: ");
-        String characterToRepeat = userInput.nextLine();
-        System.out.println("How many times to repeat:");
-        int howManyTimes = userInput.nextInt();
-        for (int i = 0; i<=howManyTimes; i++){
-            String repeatedCharString = "";
-            for (int j  = 0; j<i; j++){
-                repeatedCharString+=characterToRepeat;
-            }
-            System.out.println(repeatedCharString);
-        }
+//// BONUS
+//        while (true) {
+//            System.out.println("What is your numerical grade?");
+//            int usersGrade = userInput.nextInt();
+//            String usersLetterGrade;
+//            if(usersGrade < 60){
+//                usersLetterGrade = "F";
+//            }else if(usersGrade < 67) {
+//                usersLetterGrade = "D";
+//            }else if(usersGrade < 80) {
+//                usersLetterGrade = "C";
+//            }else if(usersGrade < 88) {
+//                usersLetterGrade = "B";
+//            }else if(usersGrade<=100) {
+//                usersLetterGrade = "A";
+//            }else{
+//                usersLetterGrade = "Error";
+//            }
+//            System.out.println("Your grade in that class was: " + usersLetterGrade);
+//            userInput.nextLine();
+//            System.out.println("Would you like to enter another grade? (y/n)");
+//            String yesOrNo = userInput.nextLine();
+//            if (yesOrNo.equals("n")) {
+//                break;
+//            }
+//        }
+//        System.out.println("Give a character: ");
+//        String characterToRepeat = userInput.nextLine();
+//        System.out.println("How many times to repeat:");
+//        int howManyTimes = userInput.nextInt();
+//        for (int i = 0; i<=howManyTimes; i++){
+//            String repeatedCharString = "";
+//            for (int j  = 0; j<i; j++){
+//                repeatedCharString+=characterToRepeat;
+//            }
+//            System.out.println(repeatedCharString);
+//        }
 
 
     }
