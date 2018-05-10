@@ -1,4 +1,4 @@
-package shape;
+package shapes;
 
 public class Circle {
     private static int circleCount = 0;
