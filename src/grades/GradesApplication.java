@@ -39,7 +39,7 @@ public class GradesApplication {
         students.put("Usermonica", studentmonica);
         students.put("Userjenn", studentjenn);
 
-
+//        System.out.println(students.get("Useryaya").getGradeAverage());
 
 //        Print the list of github users
         System.out.println("Check out our students:");
