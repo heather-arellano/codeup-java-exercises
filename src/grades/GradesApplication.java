@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class GradesApplication {
     public static void main(String[] args) {
         String decision;
-        Boolean yn = true;
+        boolean yn = true;
 
 
         HashMap<String, Student> students = new HashMap<>();
